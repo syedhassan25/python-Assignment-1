@@ -1,0 +1,4 @@
+mylist=[1,'orange',2,3,4,'apple']
+for item in mylist:
+    if type(item) == int:
+            print(item,"numeric value is found")  

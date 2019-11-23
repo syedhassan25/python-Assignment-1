@@ -1,0 +1,11 @@
+dictionaylist = {'a': 100, 'd':'orange','b':200,d:'hassan','c':300,'d':344} 
+def returnSum(myDict): 
+      
+    sum = 0
+    for i in myDict: 
+        if type(myDict[i] ) == int:
+            sum = sum + myDict[i] 
+      
+    return sum
+
+print("Sum :", returnSum(dict)) 
